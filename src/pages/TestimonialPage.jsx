@@ -9,7 +9,7 @@ const TestimonialPage = () => {
           <Row>
             <Col>
               <h1 className="text-center fw-bold animate__animated animate__fadeInUp animate__delay-1s">Semua Testimonial</h1>
-              <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, labore?</p>
+              <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">Umpan Balik Dari Pengguna NyalaLagi</p>
             </Col>
           </Row>
           <Row className="row-cols-lg-3 row-cols-1">
