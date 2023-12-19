@@ -3,10 +3,9 @@ import { Link } from 'react-router-dom';
 import LogoImage from '../assets/img/logonav.png';
 
 const FooterComponent = () => {
-
-  const handleStatus = (e) =>  {
-    localStorage.setItem('status', e)
-  }
+  const handleStatus = (e) => {
+    localStorage.setItem('status', e);
+  };
 
   return (
     <div className="footer pt-5">
@@ -14,7 +13,7 @@ const FooterComponent = () => {
         <Row className="d-flex justify-content-between">
           <Col lg="5">
             <img src={LogoImage} alt="logo-img" />
-            <p className="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto voluptates reprehenderit quia quod maxime ea!</p>
+            <p className="desc">Solusi perbaikan kerusakan instalasi listrik rumah anda dengan cara yang MUDAH, penyelesaian CEPAT, hasil yang BERKUALITAS dan service yang menjadi ANDALAN</p>
             <div className="no mb-1 mt-4">
               <Link className="text-decoration-none">
                 <i className="fa-brands fa-whatsapp"></i>
@@ -24,7 +23,7 @@ const FooterComponent = () => {
             <div className="mail">
               <Link className="text-decoration-none">
                 <i className="fa-regular fa-envelope"></i>
-                <p className="m-0">nyalalagi@gmail.com</p>
+                <p className="m-0">nyalalagi.official@gmail.com</p>
               </Link>
             </div>
           </Col>

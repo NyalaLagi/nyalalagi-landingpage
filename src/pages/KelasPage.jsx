@@ -9,7 +9,7 @@ const KelasPage = () => {
           <Row>
             <Col>
               <h1 className="fw-bold text-center animate__animated animate__fadeInUp animate__delay-1s">Semua Layanan</h1>
-              <p className="text-center animate__animated animate__fadeInUp animate__delay-1s"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi sapiente eum delectus animi soluta tempora.</p>
+              <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">kami menyediakan layanan terbaik untuk kebutuhan instalasi listrik rumah anda</p>
             </Col>
           </Row>
           <Row>
